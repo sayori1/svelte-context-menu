@@ -1,6 +1,16 @@
 {
-	"name": "my-app",
-	"version": "0.0.1",
+	"name": "context-menu-svelte",
+	"version": "1.0.1",
+	"author": {
+		"name": "almetoff",
+		"email": "gealmetov@gmail.com",
+		"url":"https://www.almetoff.ru/me"
+	},
+	"homepage": "https://github.com/sayori1/svelte-context-menu",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sayori1/svelte-context-menu"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
