@@ -3,5 +3,4 @@ import {default as ContextMenu} from './ContextMenu.svelte'
 import {default as MenuDivider} from './MenuDivider.svelte'
 import {default as MenuOption} from './MenuOption.svelte'
 
-export default ContextMenu;
-export {Menu, MenuDivider, MenuOption}
+export {ContextMenu, Menu, MenuDivider, MenuOption}
