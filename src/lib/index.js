@@ -1,6 +1,7 @@
-import Menu from './Menu.svelte'
-import ContextMenu from './ContextMenu.svelte'
-import MenuDivider from './MenuDivider.svelte'
-import MenuOption from './MenuOption.svelte'
+import {default as Menu} from './Menu.svelte'
+import {default as ContextMenu} from './ContextMenu.svelte'
+import {default as MenuDivider} from './MenuDivider.svelte'
+import {default as MenuOption} from './MenuOption.svelte'
 
-export {ContextMenu, Menu, MenuDivider, MenuOption}
+export default ContextMenu;
+export {Menu, MenuDivider, MenuOption}
