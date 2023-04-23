@@ -4,10 +4,10 @@ A svelte component designed for effortless creation of context menus.
 
 ## Example
 ```html
-<ContextMenu  showMenu={true}>
-<MenuOption  on:click={console.log}  text="Add"  />
-<MenuDivider  />
-<MenuOption  isDisabled={true}  on:click={console.log}  text="Go to"  />
+<ContextMenu showMenu={true}>
+<MenuOption on:click={console.log} text="Add"  />
+<MenuDivider />
+<MenuOption isDisabled={true} on:click={console.log} text="Go to"  />
 </ContextMenu>
 ```
 Additionally, you can customize the context menu's position and enable auto-hide functionality (when clicking outside the menu).
