@@ -2,8 +2,15 @@
 
 A svelte component designed for effortless creation of context menus.
 
+# Installation
+`npm install --save-dev svelte-context-menu`
+
 ## Example
 ```html
+<script>
+import {ContextMenu, MenuOption } from "context-menu-svelte";
+</script>
+
 <ContextMenu showMenu={true}>
 <MenuOption on:click={console.log} text="Add"  />
 <MenuDivider />
