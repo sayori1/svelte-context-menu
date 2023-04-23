@@ -47,5 +47,12 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
+	"keywords": [
+		"svelte",
+		"contextmenu",
+		"context",
+		"dropdown",
+		"menu"
+	  ],
 	"type": "module"
 }
