@@ -3,7 +3,7 @@
 A svelte component designed for effortless creation of context menus.
 
 # Installation
-`npm install --save-dev svelte-context-menu`
+`npm install --save-dev context-menu-svelte`
 
 ## Example
 ```html
